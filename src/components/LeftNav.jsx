@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 function LeftNav(){
   let netflix = {
@@ -24,11 +25,12 @@ function LeftNav(){
   return (
     <div style={leftNav}>
       <p style={netflix}> Netflix </p>
-      <p style={leftNavLinks}> Home </p>
-      <p style={leftNavLinks}> TV Shows </p>
+      <Link to='/' style={leftNavLinks}> <em>Home</em></Link>
+      <Link to='/test' style={leftNavLinks}> <em>Test</em></Link>
+      <p style={leftNavLinks}> TVShows </p>
       <p style={leftNavLinks}> Movies </p>
       <p style={leftNavLinks}> Latest </p>
-      <p style={leftNavLinks}> My List </p>
+      <p style={leftNavLinks}> MyList </p>
     </div>
   );
 }

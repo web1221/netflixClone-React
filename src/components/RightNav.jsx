@@ -2,18 +2,12 @@ import React from "react";
 import Image from './netflixBell.jpg'
 
 function RightNav(){
-  let netflix = {
-    color: "red",
-    fontSize: "28px",
-    margin: "8px",
-    marginLeft: "2%"
-  }
 
-  let rightNavLinks = {
+  let dvd = {
     color: "white",
     fontSize: "15px",
     margin: "5px",
-    marginTop: "15px",
+    marginTop: "20px",
     marginLeft: "20px"
   }
 
@@ -27,20 +21,23 @@ function RightNav(){
     height: "30px",
     width: "30px",
     backgroundColor: "red",
-    marginRight: "15px",
+    marginRight: "20px",
     color: "white",
     textAlign: "center"
 
   }
-  let image = {
-    height: "30px",
-    width: "30px"
+
+  let emoji = {
+    margin:"17px 10px 0px 5px",
+    fontSize: "20px"
   }
 
   return (
     <div style={rightNav}>
-      <p style={rightNavLinks}> Home </p>
-      <img src={Image} alt="bell" style={image}/>
+      <p style={dvd}> DVD </p>
+      <p style={emoji}>🔎</p>
+      <p style={emoji}>🎁</p>
+      <p style={emoji}>🔔</p>
       <p style={icon}>^ .  ^</p>
 
     </div>

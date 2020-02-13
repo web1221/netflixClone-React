@@ -9,11 +9,13 @@ function Header(){
     width: "100%"
   }
 
+
   return (
     <div>
       <img src={MrRobot} style={robot}/>
     </div>
   );
+
 }
 
 export default Header;

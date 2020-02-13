@@ -17,13 +17,7 @@ function HBar(){
     <div className="item"><img src={Office}/></div>
     <div className="item"><img src={Saul}/></div>
     <div className="item"><img src={Witcher}/></div>
-    <div class="content">
-      <div class="background">
-        <div class="left">left</div>
-        <div class="right">right</div>
-      </div>
-      <div class="content-container">content here...</div>
-    </div>
+
     </div>
   );
 }

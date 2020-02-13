@@ -9,11 +9,12 @@ body {
 }
 
 .item {
-  background: green;
   flex: 0 0 19.7%;
-  text-align: center;
+  /* text-align: center; */
   margin: 0 2px;
   transition: transform 300ms ease 100ms;
+  width: 10px;
+  height: auto;
 }
 
 .container:hover .item {
